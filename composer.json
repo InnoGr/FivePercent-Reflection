@@ -1,0 +1,25 @@
+{
+    "name": "fivepercent/reflection",
+    "description": "Reflection helpers",
+    "keywords": [ "reflection", "annotation reader" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "suggest": {
+        "doctrine/annotations": "Read annotations with reflection helpers."
+    },
+
+    "autoload": {
+        "psr-4": { "FivePercent\\Component\\Reflection\\": "src/" }
+    }
+}
